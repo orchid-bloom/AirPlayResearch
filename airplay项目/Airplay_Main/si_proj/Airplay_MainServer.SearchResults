@@ -1,0 +1,20 @@
+---- airPlayServer Matches (21 in 4 files) ----
+AirPlayServer.java (nz\co\iswe\android\airplay):public class AirPlayServer implements Runnable {
+AirPlayServer.java (nz\co\iswe\android\airplay):	private static final Logger LOG = Logger.getLogger(AirPlayServer.class.getName());
+AirPlayServer.java (nz\co\iswe\android\airplay):	private static AirPlayServer instance = null;
+AirPlayServer.java (nz\co\iswe\android\airplay):	public static AirPlayServer getIstance(){
+AirPlayServer.java (nz\co\iswe\android\airplay):			instance = new AirPlayServer();
+AirPlayServer.java (nz\co\iswe\android\airplay):	private AirPlayServer(){
+AirPlayServerActivity.java (com\wh\activity):import nz.co.iswe.android.airplay.AirPlayServer;
+AirPlayServerActivity.java (com\wh\activity):	private AirPlayServer airPlayServer;
+AirPlayServerActivity.java (com\wh\activity):        airPlayServer = AirPlayServer.getIstance();
+AirPlayServerActivity.java (com\wh\activity):        airPlayServer.setRtspPort(5000);
+AirPlayServerActivity.java (com\wh\activity):        Thread thread = new Thread(airPlayServer);
+RaopAudioHandler.java (nz\co\iswe\android\airplay\audio):import nz.co.iswe.android.airplay.AirPlayServer;
+RaopAudioHandler.java (nz\co\iswe\android\airplay\audio):				final AirPlayServer airPlayServer = AirPlayServer.getIstance();
+RaopAudioHandler.java (nz\co\iswe\android\airplay\audio):				pipeline.addLast("executionHandler", airPlayServer.getChannelExecutionHandler());
+RaopRtspPipelineFactory.java (nz\co\iswe\android\airplay\network\raop):import nz.co.iswe.android.airplay.AirPlayServer;
+RaopRtspPipelineFactory.java (nz\co\iswe\android\airplay\network\raop):		final AirPlayServer airPlayServer = AirPlayServer.getIstance();
+RaopRtspPipelineFactory.java (nz\co\iswe\android\airplay\network\raop):		pipeline.addLast("executionHandler", airPlayServer.getChannelExecutionHandler());
+RaopRtspPipelineFactory.java (nz\co\iswe\android\airplay\network\raop):				airPlayServer.getChannelGroup().add(e.getChannel());
+RaopRtspPipelineFactory.java (nz\co\iswe\android\airplay\network\raop):		pipeline.addLast("audio", new RaopAudioHandler(airPlayServer.getExecutorService()));

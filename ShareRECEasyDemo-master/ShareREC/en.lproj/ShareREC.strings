@@ -1,0 +1,35 @@
+/* 
+  ShareRec.strings
+  ShareRec
+
+  Created by vimfung on 14-11-6.
+  Copyright (c) 2014年 掌淘科技. All rights reserved.
+*/
+
+"BUTTON_TRIM" = "Trim";
+"BUTTON_CANEL" = "Cancel";
+"BUTTON_BACK" = "Back";
+"BUTTON_UNDO_TRIM" = "Undo";
+"BUTTON_VIDEO_CENTER" = "Video";
+"BUTTON_COMMENT" = "Comment";
+"BUTTON_SHARE" = "Share";
+"BUTTON_COMMENT_AUDIO" = "Audio";
+"BUTTON_COMMENT_VIDEO" = "Video";
+"BUTOTN_RECORD_ANYWAY" = "Record Anyway";
+"BUTOTN_DELETE" = "Delete";
+"BUTTON_KNOWN" = "I Known";
+
+
+"TEXT_ALERT_TITLE" = "Tips";
+"TEXT_MSG_NO_INPUT_DEVICE" = "Cannot record the equipment without the microphone!";
+"TEXT_MSG_USE_HEADSET_WITH_MICROPHONE" = "Use the with microphone headset recording will get better";
+"TEXT_MSG_DELETE_COMMENT" = "Delete the comment?";
+"TEXT_MSG_DELETE_PREV_COMMENT" = "Delete the previous comment?";
+"TEXT_INIT_AUDIO" = "Initializing the audio recording...";
+"TEXT_INIT_VIDEO" = "Initializing the video recording...";
+"TEXT_RECORD_READY_IN" = "Record ready in";
+"TEXT_MSG_ADD_COMMENT_FAIL" = "Add comment fail";
+"TEXT_MSG_NO_FRONT_CAMERA" = "Cannot record the equipment no front facing camera!";
+
+"ERROR_10001" = "Video recording time cannot be less than 4 seconds";
+"ERROR_10002" = "The simulator does not support video recording function";

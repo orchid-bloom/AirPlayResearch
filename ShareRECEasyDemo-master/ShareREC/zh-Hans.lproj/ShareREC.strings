@@ -1,0 +1,35 @@
+/* 
+  ShareRec.strings
+  ShareRec
+
+  Created by vimfung on 14-11-6.
+  Copyright (c) 2014年 掌淘科技. All rights reserved.
+*/
+
+"BUTTON_TRIM" = "裁剪";
+"BUTTON_CANEL" = "取消";
+"BUTTON_BACK" = "返回";
+"BUTTON_UNDO_TRIM" = "撤销裁剪";
+"BUTTON_VIDEO_CENTER" = "视频中心";
+"BUTTON_COMMENT" = "解说";
+"BUTTON_SHARE" = "分享";
+"BUTTON_COMMENT_AUDIO" = "音频";
+"BUTTON_COMMENT_VIDEO" = "视频";
+"BUTOTN_RECORD_ANYWAY" = "继续录制";
+"BUTOTN_DELETE" = "删除";
+"BUTTON_KNOWN" = "知道了";
+
+
+"TEXT_ALERT_TITLE" = "提示";
+"TEXT_MSG_NO_INPUT_DEVICE" = "无法录制!该设备没有麦克风!";
+"TEXT_MSG_USE_HEADSET_WITH_MICROPHONE" = "使用带麦克风的耳机将获得更佳的录制效果";
+"TEXT_MSG_DELETE_COMMENT" = "要删除解说吗?";
+"TEXT_MSG_DELETE_PREV_COMMENT" = "要删除前一个解说吗?";
+"TEXT_INIT_AUDIO" = "正在初始化录制音频...";
+"TEXT_INIT_VIDEO" = "正在初始化录制视频...";
+"TEXT_RECORD_READY_IN" = "准备开始录制";
+"TEXT_MSG_ADD_COMMENT_FAIL" = "添加解说失败";
+"TEXT_MSG_NO_FRONT_CAMERA" = "无法录制!该设备没有前置摄像头!";
+
+"ERROR_10001" = "视频录制时间不能小于4秒";
+"ERROR_10002" = "模拟器不支持录像功能";

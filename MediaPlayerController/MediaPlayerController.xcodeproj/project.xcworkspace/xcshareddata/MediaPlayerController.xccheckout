@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A48FA278-61FC-4DA1-8017-7B6E294E7D8E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MediaPlayerController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD9277FF-BD6B-4306-9483-943A3FD7620E</key>
+		<string>svn://10.9.33.250/feikancamp/feikan</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/branches/MediaPlayerController/MediaPlayerController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD9277FF-BD6B-4306-9483-943A3FD7620E</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>FD9277FF-BD6B-4306-9483-943A3FD7620E</key>
+		<string>svn://10.9.33.250/feikancamp/feikan</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://10.9.33.250/feikancamp/feikan/ios/branches/MediaPlayerController/MediaPlayerController.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD9277FF-BD6B-4306-9483-943A3FD7620E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD9277FF-BD6B-4306-9483-943A3FD7620E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>feikan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

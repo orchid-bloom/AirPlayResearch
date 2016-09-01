@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/phlo/AirReceiver/AirReceiver.java" kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry excluding="**" including="**/*.java" kind="src" output="target/classes" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Duval-YJJ/Desktop/airplay项目/jmdns-3.4.1/lib/jmdns.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Duval-YJJ/Desktop/airplay项目/netty-5.0.0.Alpha2/javadoc/netty-all-5.0.0.Alpha2-javadoc.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

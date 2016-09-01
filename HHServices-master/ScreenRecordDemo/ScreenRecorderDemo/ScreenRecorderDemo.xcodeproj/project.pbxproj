@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629A117417A12B17002DE046 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A117317A12B17002DE046 /* UIKit.framework */; };
+		629A117617A12B17002DE046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A117517A12B17002DE046 /* Foundation.framework */; };
+		629A117817A12B17002DE046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A117717A12B17002DE046 /* CoreGraphics.framework */; };
+		629A117E17A12B17002DE046 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 629A117C17A12B17002DE046 /* InfoPlist.strings */; };
+		629A118017A12B17002DE046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629A117F17A12B17002DE046 /* main.m */; };
+		629A118417A12B17002DE046 /* LZXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629A118317A12B17002DE046 /* LZXAppDelegate.m */; };
+		629A118617A12B17002DE046 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 629A118517A12B17002DE046 /* Default.png */; };
+		629A118817A12B17002DE046 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629A118717A12B17002DE046 /* Default@2x.png */; };
+		629A118A17A12B17002DE046 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629A118917A12B17002DE046 /* Default-568h@2x.png */; };
+		629A118D17A12B17002DE046 /* LZXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629A118C17A12B17002DE046 /* LZXViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		629A119017A12B17002DE046 /* LZXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629A118E17A12B17002DE046 /* LZXViewController.xib */; };
+		629A119B17A12B4D002DE046 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A119A17A12B4D002DE046 /* AVFoundation.framework */; };
+		629A119D17A12B58002DE046 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A119C17A12B58002DE046 /* CoreVideo.framework */; };
+		629A119F17A12B66002DE046 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629A119E17A12B66002DE046 /* CoreMedia.framework */; };
+		629A11A717A12C62002DE046 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 629A11A617A12C62002DE046 /* DrawView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		629A11AA17A12D12002DE046 /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 629A11A917A12D12002DE046 /* ScreenRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		629A116F17A12B17002DE046 /* ScreenRecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629A117317A12B17002DE046 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		629A117517A12B17002DE046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		629A117717A12B17002DE046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		629A117B17A12B17002DE046 /* ScreenRecorderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenRecorderDemo-Info.plist"; sourceTree = "<group>"; };
+		629A117D17A12B17002DE046 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		629A117F17A12B17002DE046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629A118117A12B17002DE046 /* ScreenRecorderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenRecorderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		629A118217A12B17002DE046 /* LZXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZXAppDelegate.h; sourceTree = "<group>"; };
+		629A118317A12B17002DE046 /* LZXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZXAppDelegate.m; sourceTree = "<group>"; };
+		629A118517A12B17002DE046 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		629A118717A12B17002DE046 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		629A118917A12B17002DE046 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		629A118B17A12B17002DE046 /* LZXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZXViewController.h; sourceTree = "<group>"; };
+		629A118C17A12B17002DE046 /* LZXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZXViewController.m; sourceTree = "<group>"; };
+		629A118F17A12B17002DE046 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LZXViewController.xib; sourceTree = "<group>"; };
+		629A119A17A12B4D002DE046 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		629A119C17A12B58002DE046 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		629A119E17A12B66002DE046 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		629A11A517A12C62002DE046 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		629A11A617A12C62002DE046 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		629A11A817A12D12002DE046 /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
+		629A11A917A12D12002DE046 /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629A116C17A12B17002DE046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629A119F17A12B66002DE046 /* CoreMedia.framework in Frameworks */,
+				629A119D17A12B58002DE046 /* CoreVideo.framework in Frameworks */,
+				629A119B17A12B4D002DE046 /* AVFoundation.framework in Frameworks */,
+				629A117417A12B17002DE046 /* UIKit.framework in Frameworks */,
+				629A117617A12B17002DE046 /* Foundation.framework in Frameworks */,
+				629A117817A12B17002DE046 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629A116417A12B17002DE046 = {
+			isa = PBXGroup;
+			children = (
+				629A119E17A12B66002DE046 /* CoreMedia.framework */,
+				629A119C17A12B58002DE046 /* CoreVideo.framework */,
+				629A119A17A12B4D002DE046 /* AVFoundation.framework */,
+				629A117917A12B17002DE046 /* ScreenRecorderDemo */,
+				629A117217A12B17002DE046 /* Frameworks */,
+				629A117017A12B17002DE046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629A117017A12B17002DE046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629A116F17A12B17002DE046 /* ScreenRecorderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629A117217A12B17002DE046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629A117317A12B17002DE046 /* UIKit.framework */,
+				629A117517A12B17002DE046 /* Foundation.framework */,
+				629A117717A12B17002DE046 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		629A117917A12B17002DE046 /* ScreenRecorderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				629A11A417A12C4E002DE046 /* DrawView */,
+				629A11A017A12BDB002DE046 /* ScreenRecorder */,
+				629A118217A12B17002DE046 /* LZXAppDelegate.h */,
+				629A118317A12B17002DE046 /* LZXAppDelegate.m */,
+				629A118B17A12B17002DE046 /* LZXViewController.h */,
+				629A118C17A12B17002DE046 /* LZXViewController.m */,
+				629A118E17A12B17002DE046 /* LZXViewController.xib */,
+				629A117A17A12B17002DE046 /* Supporting Files */,
+			);
+			path = ScreenRecorderDemo;
+			sourceTree = "<group>";
+		};
+		629A117A17A12B17002DE046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629A117B17A12B17002DE046 /* ScreenRecorderDemo-Info.plist */,
+				629A117C17A12B17002DE046 /* InfoPlist.strings */,
+				629A117F17A12B17002DE046 /* main.m */,
+				629A118117A12B17002DE046 /* ScreenRecorderDemo-Prefix.pch */,
+				629A118517A12B17002DE046 /* Default.png */,
+				629A118717A12B17002DE046 /* Default@2x.png */,
+				629A118917A12B17002DE046 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629A11A017A12BDB002DE046 /* ScreenRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				629A11A817A12D12002DE046 /* ScreenRecorder.h */,
+				629A11A917A12D12002DE046 /* ScreenRecorder.m */,
+			);
+			name = ScreenRecorder;
+			sourceTree = "<group>";
+		};
+		629A11A417A12C4E002DE046 /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				629A11A517A12C62002DE046 /* DrawView.h */,
+				629A11A617A12C62002DE046 /* DrawView.m */,
+			);
+			name = DrawView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629A116E17A12B17002DE046 /* ScreenRecorderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629A119317A12B17002DE046 /* Build configuration list for PBXNativeTarget "ScreenRecorderDemo" */;
+			buildPhases = (
+				629A116B17A12B17002DE046 /* Sources */,
+				629A116C17A12B17002DE046 /* Frameworks */,
+				629A116D17A12B17002DE046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRecorderDemo;
+			productName = ScreenRecorderDemo;
+			productReference = 629A116F17A12B17002DE046 /* ScreenRecorderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629A116617A12B17002DE046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LZX;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = lezhixing;
+			};
+			buildConfigurationList = 629A116917A12B17002DE046 /* Build configuration list for PBXProject "ScreenRecorderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 629A116417A12B17002DE046;
+			productRefGroup = 629A117017A12B17002DE046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629A116E17A12B17002DE046 /* ScreenRecorderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629A116D17A12B17002DE046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629A117E17A12B17002DE046 /* InfoPlist.strings in Resources */,
+				629A118617A12B17002DE046 /* Default.png in Resources */,
+				629A118817A12B17002DE046 /* Default@2x.png in Resources */,
+				629A118A17A12B17002DE046 /* Default-568h@2x.png in Resources */,
+				629A119017A12B17002DE046 /* LZXViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629A116B17A12B17002DE046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629A118017A12B17002DE046 /* main.m in Sources */,
+				629A118417A12B17002DE046 /* LZXAppDelegate.m in Sources */,
+				629A118D17A12B17002DE046 /* LZXViewController.m in Sources */,
+				629A11A717A12C62002DE046 /* DrawView.m in Sources */,
+				629A11AA17A12D12002DE046 /* ScreenRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		629A117C17A12B17002DE046 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629A117D17A12B17002DE046 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		629A118E17A12B17002DE046 /* LZXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629A118F17A12B17002DE046 /* en */,
+			);
+			name = LZXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629A119117A12B17002DE046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		629A119217A12B17002DE046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629A119417A12B17002DE046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenRecorderDemo/ScreenRecorderDemo-Prefix.pch";
+				INFOPLIST_FILE = "ScreenRecorderDemo/ScreenRecorderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		629A119517A12B17002DE046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenRecorderDemo/ScreenRecorderDemo-Prefix.pch";
+				INFOPLIST_FILE = "ScreenRecorderDemo/ScreenRecorderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629A116917A12B17002DE046 /* Build configuration list for PBXProject "ScreenRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629A119117A12B17002DE046 /* Debug */,
+				629A119217A12B17002DE046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629A119317A12B17002DE046 /* Build configuration list for PBXNativeTarget "ScreenRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629A119417A12B17002DE046 /* Debug */,
+				629A119517A12B17002DE046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629A116617A12B17002DE046 /* Project object */;
+}
